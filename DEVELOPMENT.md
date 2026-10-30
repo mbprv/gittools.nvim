@@ -273,7 +273,7 @@ Every group is defined with `default = true` so a colorscheme wins.
 ## Demos
 
 `data/demo/*.scene` are recorded by `scripts/record-demos.sh` with
-[nvim-demo](https://github.com/mbfoss/nvim-demo-generator); GIFs and casts land
+[nvim-demo](https://github.com/<owner>/nvim-demo-generator); GIFs and casts land
 in `data/demo-out/` (ignored). The scenes run in `data/demo/fixture`, a throwaway
 repository rebuilt by `data/demo/setup-fixture.sh` with fixed authors and dates, so
 recordings are reproducible. The GIFs are published to the `assets` branch

@@ -5,7 +5,7 @@
 #   scripts/record-demos.sh data/demo/graph.scene   # just one
 #
 # Each scene writes its GIF and cast to data/demo-out/. Needs nvim, agg and pyte.
-# nvim-demo (https://github.com/mbfoss/nvim-demo-generator) is cloned into
+# nvim-demo (https://github.com/<owner>/nvim-demo-generator) is cloned into
 # $XDG_CACHE_HOME/gittools.nvim when missing. Set NVIM_DEMO to a checkout's
 # bin/nvim-demo to use that instead.
 #
@@ -24,7 +24,7 @@ else
     if [ ! -x "$demo" ]; then
         mkdir -p "${tool%/*}"
         git clone --depth 1 \
-            https://github.com/mbfoss/nvim-demo-generator "$tool"
+            https://github.com/<owner>/nvim-demo-generator "$tool"
     fi
 fi
 

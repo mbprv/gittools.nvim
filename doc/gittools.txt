@@ -86,7 +86,7 @@ modules load on first use.
 lazy.nvim <https://github.com/folke/lazy.nvim>:
 
 >lua
-    { "mbfoss/gittools.nvim", cmd = "Gittools" }
+    { "<owner>/gittools.nvim", cmd = "Gittools" }
 <
 
 From `pack/*/opt`:
